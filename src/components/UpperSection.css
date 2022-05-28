@@ -1,0 +1,104 @@
+.section-upper {
+  height: 50%;
+  width: 96%;
+  border: 3px solid #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: rgb(226, 174, 21);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.sectionUpper-Navbar {
+  height: 4rem;
+  width: 100%;
+}
+.chefImage {
+  height: 250px;
+  width: 180px;
+  position: fixed;
+  left: -1.5rem;
+  top: 0rem;
+}
+.plateImage {
+  height: 170px;
+  width: 270px;
+  position: fixed;
+  top: 4.2rem;
+}
+.brandName {
+  z-index: 100;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  height: 170px;
+  width: 270px;
+  position: fixed;
+  top: 7.9rem;
+  left: 30.8rem;
+}
+@media screen and (min-width: 375px) and (max-width: 435px) {
+  .chefImage {
+    height: 180px;
+    width: 100px;
+    left: -1.2rem;
+    top: 1rem;
+  }
+  .section-upper {
+    height: 40vh;
+    width: 100vw;
+  }
+  .plateImage {
+    height: 150px;
+    width: 220px;
+    top: 6rem;
+    /* display: none; */
+  }
+  .brandName {
+    position: fixed;
+    top: 9.2rem;
+    left: 3rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .plateImage {
+    height: 150px;
+    width: 220px;
+    top: 10rem;
+    /* display: none; */
+  }
+  .brandName {
+    top: 13.2rem;
+    left: 2.6rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .chefImage {
+    height: 150px;
+    width: 90px;
+    left: -1.5rem;
+    top: 0.9rem;
+  }
+  .plateImage {
+    height: 150px;
+    width: 200px;
+    top: 12rem;
+  }
+  .brandName {
+    position: fixed;
+    top: 15.3rem;
+    left: 0.9rem;
+    font-weight: 700;
+  }
+  .nav-followIcons {
+    height: 5rem;
+    width: max-content;
+    position: relative;
+    right: 8.5rem;
+    top: 5.5rem;
+  }
+  .navbarItems {
+    position: relative;
+    left: 1.3rem;
+  }
+}
